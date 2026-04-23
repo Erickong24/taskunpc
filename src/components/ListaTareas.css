@@ -1,0 +1,27 @@
+.lista-tareas {
+  padding: 2rem 0;
+}
+
+.lista-tareas__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Empty state */
+.lista-tareas__empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-secondary);
+}
+
+.lista-tareas__empty-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.lista-tareas__empty p {
+  font-size: 1rem;
+  font-weight: 500;
+}
