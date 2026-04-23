@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>TaskUPC — Mi Gestor Académico</h1>
+      <h1>TaskUPC — Mi Gestor Académico 2026</h1>
     </div>
   );
 }
